@@ -96,7 +96,7 @@ body {
     gap: 1.5rem;
 }
 
-.social-media a i{
+.social-media div{
     color: var(--clr-white);
     font-size: 1.2rem;
     width: 40px;
@@ -105,9 +105,10 @@ body {
     border-radius: 50%;
     text-align: center;
     line-height: 2;
+    cursor: pointer;
 }
 
-.social-media a i:hover {
+.social-media div:hover {
     color: var(--clr-soft-magenta);
     border: 1px solid var(--clr-soft-magenta);
 }
